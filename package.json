@@ -2,7 +2,9 @@
   "name": "pitch-pls",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "bespoke": "^1.1.0",
@@ -13,5 +15,8 @@
     "proppy-react": "^1.2.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0"
+  },
+  "dependencies": {
+    "gh-pages": "^1.2.0"
   }
 }
