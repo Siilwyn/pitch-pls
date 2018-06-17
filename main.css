@@ -1,0 +1,98 @@
+@import 'highlight.js/styles/github.css';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #3c3c3c;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+section:nth-of-type(odd) {
+  background-color: #fafafa;
+}
+
+section:nth-of-type(even) {
+  background-color: #3c3c3c;
+  color: #fff;
+}
+
+h1, .h1 {
+  font-size: 3.157em;
+  font-weight: 500;
+}
+
+p {
+  margin-bottom: 1.3em;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.157em;
+}
+
+h2 {
+  font-size: 2.369em;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.777em;
+  font-weight: normal;
+}
+
+h4 {
+  font-size: 1.333em;
+  font-weight: normal;
+}
+
+img {
+  margin-top: 2rem;
+  vertical-align: middle;
+}
+
+code {
+  min-width: 42em;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: #3c3c3c;
+  font-family: 'Fira Mono', monospace;
+}
+
+a {
+  color: #64B5F6;
+  font-weight: bold;
+}
+
+.code-render-output {
+  min-width: 20rem;
+  margin: 2rem;
+  padding: 2rem;
+  border: 2px #F44336 dashed;
+}
